@@ -1,0 +1,404 @@
+.upper-nav {
+  background-color: #005dab;
+  font-size: 10px;
+  padding: 5px 10px;
+  color: #fff;
+  font-family: etelkamedium;
+}
+
+.upper-nav .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0px 5px;
+}
+
+.upper-nav .left a {
+  margin: 0px 3px;
+  padding: 0px 3px;
+  color: #fff;
+}
+
+.upper-nav .left a img {
+  margin: 0px 2px;
+}
+
+.upper-nav .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.upper-nav button {
+  color: #005dab;
+}
+
+.upper-nav button img {
+  margin: 0px 3px;
+}
+
+.upper-nav button:first-of-type {
+  background-color: #f3b518;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.upper-nav button:last-of-type {
+  border-radius: 0px 5px 5px 0px;
+  background-color: #fff;
+}
+
+.navbar {
+  font-family: etelkamedium;
+  font-size: 17px;
+  border-bottom: 1px solid #5d666b;
+}
+
+.navbar .dropdown {
+  top: 15px;
+}
+
+.navbar a {
+  margin: 0px 10px;
+  color: #5d666b !important;
+}
+
+.navbar a img {
+  padding-left: 10px;
+}
+
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+
+.navbar img {
+  margin-left: 4px;
+}
+
+.navbar .active {
+  color: #005dab !important;
+}
+
+.navbar form {
+  margin-left: 10px;
+  position: relative;
+}
+
+.navbar input {
+  border-radius: 40px;
+  width: 100% !important;
+}
+
+.navbar .search {
+  position: absolute;
+  right: 20px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #005dab !important;
+}
+
+.home .carousel-indicators {
+  bottom: 23px;
+}
+
+.home .carousel-indicators li {
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #005dab;
+}
+
+.home .carousel-indicators li.active {
+  background-color: #005dab;
+}
+
+.home .aside {
+  background-color: #005dab;
+  padding: 5px 10px;
+  height: 100%;
+  color: #fff;
+}
+
+.home .aside .bars {
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #7baeda;
+  padding: 10px 0px;
+}
+
+.home .aside .bars:last-child {
+  border: none;
+}
+
+.home .aside .bars img {
+  display: block;
+}
+
+.altrnative {
+  background-image: url("../img/banner-1.png");
+  background-size: cover;
+  height: auto;
+}
+
+.altrnative h3 {
+  padding: 50px 0px 30px;
+  color: #005dab;
+}
+
+.altrnative p {
+  color: #5b666c;
+  padding-bottom: 15px;
+}
+
+.altrnative p:nth-child(3) {
+  color: #165284;
+  padding-bottom: 50px;
+}
+
+.altrnative .community-photo {
+  width: 100%;
+  height: 100%;
+}
+
+.news .first {
+  padding: 10px 15px 5px;
+  height: 343px;
+}
+
+.news .first p {
+  padding: 5px 0px;
+}
+
+.news .first p:nth-child(1) {
+  color: #00aeef;
+}
+
+.news .first p:nth-child(3) {
+  color: #656f75;
+}
+
+.news .first p:nth-child(4) {
+  color: #005dab;
+  padding: 10px 0px 15px;
+}
+
+.news .first h3 {
+  color: #005dab;
+}
+
+.news .carousel-indicators li {
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #005dab;
+  top: 20px;
+}
+
+.news .carousel-indicators li.active {
+  background-color: #005dab;
+}
+
+.news .img img {
+  width: 100%;
+  height: 343px;
+}
+
+.news .three {
+  background-color: #0b406c;
+  height: 100%;
+  padding: 50px 15px;
+  height: 343px;
+}
+
+.news .three .contant {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news .three .contant h3 {
+  color: #fff;
+}
+
+.news .three .contant p {
+  color: #7baeda;
+  margin-bottom: 3px;
+}
+
+.news .three .contant p:nth-child(4) {
+  padding-bottom: 5px;
+}
+
+.news .three .contant p:nth-child(5) {
+  padding-top: 15px;
+  color: #fff;
+}
+
+.news .four {
+  background-color: #165284;
+  height: 100%;
+  padding: 50px 15px;
+  height: 343px;
+}
+
+.news .four h3 {
+  color: #fff;
+}
+
+.news .four p {
+  color: #7baeda;
+}
+
+.news .four p:nth-child(3) {
+  padding-top: 15px;
+  color: #fff;
+}
+
+.community {
+  background-image: url("../img/banner-2.png");
+  background-size: cover;
+  height: auto;
+}
+
+.community h3 {
+  padding: 50px 0px 30px;
+  color: #005dab;
+}
+
+.community p {
+  color: #5b666c;
+  padding-bottom: 15px;
+}
+
+.community p:nth-child(3) {
+  color: #165284;
+  padding-bottom: 50px;
+}
+
+.community .community-photo {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: #005dab;
+  padding: 20px 0px;
+}
+
+footer .tabs {
+  padding-bottom: 25px;
+}
+
+footer .tabs h3 {
+  padding-top: 15px;
+  color: #fff;
+  font-family: etelkamedium;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer .tabs p {
+  color: #7baeda;
+  padding-bottom: 0px !important;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+footer .tabs p:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+footer .containt {
+  border-top: 1px solid #7baeda;
+  padding-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #7baeda;
+}
+
+footer .containt span {
+  color: #fff;
+}
+
+footer .copy-right {
+  padding-top: 25px;
+}
+
+footer .copy-right p {
+  margin-bottom: 0px;
+  color: #7baeda;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+@font-face {
+  font-family: etelkalight;
+  src: url(../etelka-web-fonts/etelkalight-webfont.woff);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: etelkamedium;
+  src: url(../etelka-web-fonts/etelkamedium-webfont.woff);
+  font-style: normal;
+  font-size: 30px;
+}
+
+.altrnative p, .news .first p, .community p {
+  font-family: etelkalight;
+  font-size: 15px;
+}
+
+.altrnative h3, .news .first h3, .news .three .contant h3, .news .four h3, .community h3 {
+  font-family: etelkalight;
+  font-size: 33px;
+}
+
+@media (max-width: 991px) {
+  .altrnative, .community {
+    background-color: #e2f3ff;
+    background-image: none;
+  }
+}
+
+@media (max-width: 342px) {
+  .navbar-light .navbar-toggler {
+    margin: auto;
+  }
+}
+
+@media (max-width: 1345px) {
+  .home .carousel-indicators {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,4 @@
+[10/29/2019, 9:29:01 PM] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[10/29/2019, 9:29:01 PM] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[10/29/2019, 9:29:01 PM] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[10/29/2019, 9:29:01 PM] layer "9.99% p.a. 10.61% p.a* Comparison rate Limited time offer!": Expected end of input but "*" found.
